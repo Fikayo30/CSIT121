@@ -1,0 +1,74 @@
+body {
+    background-color: black;   
+}
+
+.container {
+    margin: auto;
+    overflow: hidden;
+    }
+    
+    .incline-image{
+        margin-top: 10px;
+        width: 50%;
+    }
+    
+    .recipe-section{
+        background: #ccc;
+        box-shadow: 10px rgba(0, 0, 0 .1 );
+    
+    }
+    
+    
+    h1,h2,h3{
+        margin-top: 0;
+    }
+    
+h1{
+    color: yellowgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    color: goldenrod;
+    font-size: 30px;
+}
+
+h3 {
+    color: green;
+    text-transform: uppercase;
+}
+
+ul, ol{
+    margin-bottom: 15px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    
+}
+
+li{
+    margin-left: 20px ;
+    color: yellow;
+}
+
+p {
+    color: goldenrod;
+    font-size: 23px ;
+}
+
+a { 
+    color: aquamarine;
+}
+
+a.more-recipes-link {
+    color: yellow;
+    text-decoration: none;
+}
+.background-image {
+    background-image:url(Images/jollofrice.jpg);
+    height: 300px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 3px;
+
+
+ }
